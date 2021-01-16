@@ -10,10 +10,13 @@ import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.andrian.githubuserapi.adapter.MainAdapter
+import com.andrian.githubuserapi.data.User
 import com.andrian.githubuserapi.data.UserDummy
+import com.andrian.githubuserapi.data.remote.RetrofitApi
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -27,6 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         recyclerMain.adapter = adapter
         recyclerMain.layoutManager = LinearLayoutManager(this)
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

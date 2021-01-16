@@ -6,64 +6,83 @@ object UserDummy {
         val list = arrayListOf<User>()
 
         list.add(User(
-            "JakeWharton",
-            "https://avatars0.githubusercontent.com/u/66577?v=4",
-            "https://github.com/jake",
-            "https://api.github.com/users/jake/followers",
+            "sidiqpermana",
+            "https://avatars1.githubusercontent.com/u/4090245?v=4",
+            "https://github.com/sidiqpermana",
+            "https://api.github.com/users/sidiqpermana/followers",
             10,
-            "https://api.github.com/users/jake/following{/other_user}",
+            "https://api.github.com/users/sidiqpermana/following{/other_user}",
             15,
-            "https://api.github.com/users/jake/repos",
-            10
+            "https://api.github.com/users/sidiqpermana/repos"
             ))
 
         list.add(User(
-            "JakeWharton2",
-            "https://avatars0.githubusercontent.com/u/66577?v=4",
-            "https://github.com/jake",
-            "https://api.github.com/users/jake/followers",
+            "sidiqpermana2",
+            "https://avatars1.githubusercontent.com/u/4090245?v=4",
+            "https://github.com/sidiqpermana",
+            "https://api.github.com/users/sidiqpermana/followers",
             10,
-            "https://api.github.com/users/jake/following{/other_user}",
+            "https://api.github.com/users/sidiqpermana/following{/other_user}",
             15,
-            "https://api.github.com/users/jake/repos",
-            10
-        ))
+            "https://api.github.com/users/sidiqpermana/repos"
+            ))
 
         list.add(User(
-            "JakeWharton3",
-            "https://avatars0.githubusercontent.com/u/66577?v=4",
-            "https://github.com/jake",
-            "https://api.github.com/users/jake/followers",
+            "sidiqpermana3",
+            "https://avatars1.githubusercontent.com/u/4090245?v=4",
+            "https://github.com/sidiqpermana",
+            "https://api.github.com/users/sidiqpermana/followers",
             10,
-            "https://api.github.com/users/jake/following{/other_user}",
+            "https://api.github.com/users/sidiqpermana/following{/other_user}",
             15,
-            "https://api.github.com/users/jake/repos",
-            10
-        ))
+            "https://api.github.com/users/sidiqpermana/repos"
+            ))
 
         list.add(User(
-            "JakeWharton4",
-            "https://avatars0.githubusercontent.com/u/66577?v=4",
-            "https://github.com/jake",
-            "https://api.github.com/users/jake/followers",
+            "sidiqpermana4",
+            "https://avatars1.githubusercontent.com/u/4090245?v=4",
+            "https://github.com/sidiqpermana",
+            "https://api.github.com/users/sidiqpermana/followers",
             10,
-            "https://api.github.com/users/jake/following{/other_user}",
+            "https://api.github.com/users/sidiqpermana/following{/other_user}",
             15,
-            "https://api.github.com/users/jake/repos",
-            10
-        ))
+            "https://api.github.com/users/sidiqpermana/repos"
+            ))
 
         list.add(User(
-            "JakeWharton5",
-            "https://avatars0.githubusercontent.com/u/66577?v=4",
-            "https://github.com/jake",
-            "https://api.github.com/users/jake/followers",
+            "sidiqpermana5",
+            "https://avatars1.githubusercontent.com/u/4090245?v=4",
+            "https://github.com/sidiqpermana",
+            "https://api.github.com/users/sidiqpermana/followers",
             10,
-            "https://api.github.com/users/jake/following{/other_user}",
+            "https://api.github.com/users/sidiqpermana/following{/other_user}",
             15,
-            "https://api.github.com/users/jake/repos",
-            10
-        ))
+            "https://api.github.com/users/sidiqpermana/repos"
+            ))
+
+        list.add(User(
+            "sidiqpermana6",
+            "https://avatars1.githubusercontent.com/u/4090245?v=4",
+            "https://github.com/sidiqpermana",
+            "https://api.github.com/users/sidiqpermana/followers",
+            10,
+            "https://api.github.com/users/sidiqpermana/following{/other_user}",
+            15,
+            "https://api.github.com/users/sidiqpermana/repos"
+            ))
+
+        list.add(User(
+            "sidiqpermana7",
+            "https://avatars1.githubusercontent.com/u/4090245?v=4",
+            "https://github.com/sidiqpermana",
+            "https://api.github.com/users/sidiqpermana/followers",
+            10,
+            "https://api.github.com/users/sidiqpermana/following{/other_user}",
+            15,
+            "https://api.github.com/users/sidiqpermana/repos"
+            ))
+
+
 
         return list
     }

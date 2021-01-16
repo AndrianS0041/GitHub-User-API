@@ -30,7 +30,7 @@ class MainAdapter(val list: List<User>) : RecyclerView.Adapter<MainAdapter.ViewH
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(list.get(position))
+        holder.bind(list[position])
         holder.itemView.setOnClickListener {
             onItemClickListener?.invoke(list[position])
         }
