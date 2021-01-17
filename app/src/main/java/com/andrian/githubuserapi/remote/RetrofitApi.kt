@@ -1,4 +1,4 @@
-package com.andrian.githubuserapi.data.remote
+package com.andrian.githubuserapi.remote
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit
 
 object RetrofitApi {
 
-    private const val USER_URL = "https://api.github.com/"
+    const val USER_URL = "https://api.github.com/"
 
     private val client = OkHttpClient.Builder()
         .addInterceptor(HttpLoggingInterceptor().apply {
@@ -19,15 +19,15 @@ object RetrofitApi {
         .build()
 
     private fun create(url: String): Retrofit {
-        val retrofit = Retrofit.Builder()
-            .baseUrl(USER_URL)
+        return Retrofit.Builder()
+            .baseUrl(url)
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-        return retrofit
     }
 
     fun userService(): UserService {
         return create(USER_URL).create(UserService::class.java)
     }
+
 }

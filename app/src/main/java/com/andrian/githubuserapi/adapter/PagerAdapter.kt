@@ -1,8 +1,10 @@
-package com.andrian.githubuserapi
+package com.andrian.githubuserapi.adapter
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
+import com.andrian.githubuserapi.FollowersFragment
+import com.andrian.githubuserapi.FollowingFragment
 
 class PagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
     // sebuah list yang menampung objek Fragment
@@ -23,7 +25,7 @@ class PagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
     // judul untuk tabs
     override fun getPageTitle(position: Int): CharSequence? {
         return when (position) {
-            0 -> "Followerd"
+            0 -> "Follower"
             else -> "Following"
         }
     }
